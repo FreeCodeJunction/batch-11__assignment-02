@@ -1,0 +1,9 @@
+@media screen and (width <= 576px) {
+  .navbar__items {
+    display: none;
+  }
+
+  .navbar__mobile {
+    display: flex;
+  }
+}

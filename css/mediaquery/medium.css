@@ -1,0 +1,15 @@
+@media screen and (width <= 992px) {
+  /* header section  */
+  .navbar__items .regular-button {
+    padding-inline: 2.1rem;
+  }
+
+  .navbar__items {
+    justify-content: end;
+    gap: 32px;
+  }
+
+  .navbar__items > h1 {
+    display: none;
+  }
+}

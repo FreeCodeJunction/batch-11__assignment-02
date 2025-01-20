@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+:root {
+    --font-primary: "Quicksand", serif;
+    --font-secondary: font-family: "Raleway", serif;
+    /* colors  */
+    --clr-pure-black: #000000;
+    --clr-pure-white: #FFFFFF;
+    --clr-orange: rgba(254, 163, 1, 1);
+    --clr-skyblue: rgba(1, 172, 253, 1);
+    --clr-mild-skyblue: #05D4DF;
+    --clr-strong-skyblue: #5D58EF;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: var(--font-primary);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.wrapper {
+    max-width: 1440px;
+    margin-inline: auto;
+}
+
+
+/* utility classes */
+.regular-button {
+    padding: 10px 60.5px;
+    font: 600 1.25rem var(--font-primary);
+    color: var(--clr-pure-white);
+    background-color: var(--clr-orange);
+    border: none;
+    border-radius: 12px;
+}
