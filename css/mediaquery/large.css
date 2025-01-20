@@ -1,2 +1,14 @@
 @media screen and (width <= 1200px) {
+  /* hero section */
+  .hero {
+    padding-inline: 3rem;
+  }
+
+  .hero__title {
+    font-size: 3rem;
+  }
+
+  .hero__description {
+    padding-right: 2rem;
+  }
 }

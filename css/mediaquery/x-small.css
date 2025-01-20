@@ -1,9 +1,15 @@
 @media screen and (width <= 576px) {
-  .navbar__items {
-    display: none;
+  /* hero section */
+
+  .hero {
+    margin-top: 20px;
   }
 
-  .navbar__mobile {
-    display: flex;
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__description {
+    font-size: 0.875rem;
   }
 }

@@ -1,5 +1,6 @@
 @media screen and (width <= 992px) {
   /* header section  */
+
   .navbar__items .regular-button {
     padding-inline: 2.1rem;
   }
@@ -11,5 +12,26 @@
 
   .navbar__items > h1 {
     display: none;
+  }
+
+  /* hero section  */
+
+  .hero {
+    gap: 0;
+    align-items: end;
+  }
+
+  .hero__img-container {
+    max-width: 350px;
+  }
+
+  .hero__title {
+    font-size: 2rem;
+
+    line-height: 40px;
+  }
+
+  .hero__description {
+    max-width: 440px;
   }
 }

@@ -42,7 +42,15 @@ img {
     padding: 10px 60.5px;
     font: 600 1.25rem var(--font-primary);
     color: var(--clr-pure-white);
-    background-color: var(--clr-orange);
+    background-color: var(--clr-pure-black);
     border: none;
     border-radius: 12px;
+}
+
+.text-orange {
+    color: var(--clr-orange);
+}
+
+.text-skyblue {
+    color: var(--clr-skyblue);
 }
