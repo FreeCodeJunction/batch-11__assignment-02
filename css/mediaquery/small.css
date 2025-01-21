@@ -1,11 +1,10 @@
 @media screen and (width <= 768px) {
   .wrapper {
-    padding-inline: 1rem;
+    /* padding-inline: 1rem; */
   }
 
   .navbar {
     border-bottom: 2px solid var(--clr-orange);
-    padding-inline: 0;
   }
 
   .navbar__items {
@@ -23,7 +22,12 @@
     gap: 20px;
     align-items: center;
     text-align: center;
-    padding-inline: 0;
+    padding-inline: 1rem;
+  }
+
+  .navbar__logo-img-container > img {
+    max-width: 46px;
+    aspect-ratio: 1;
   }
 
   .hero__title {
@@ -41,5 +45,9 @@
   .hero__content > .regular-button {
     padding-inline: 24px;
     font-size: 1rem;
+  }
+
+  .curriculum {
+    padding-inline: 1rem;
   }
 }

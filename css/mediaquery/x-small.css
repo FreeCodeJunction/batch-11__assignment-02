@@ -21,7 +21,7 @@
   /* curriculum  */
 
   .curriculum {
-    padding: 40px 0 0;
+    padding: 40px 1rem;
     /* background: url("../../assets/bg.png") left top no-repeat;
     background-size: contain; */
   }
@@ -64,5 +64,55 @@
 
   .curriculum__item > p {
     max-width: 193.81px;
+  }
+
+  /* stories section */
+
+  .stories-wrapper {
+    background-position: initial, left top;
+    background-size: cover;
+  }
+
+  .stories {
+    padding-block: 40px;
+    padding-inline: 1rem;
+  }
+
+  .stories__items {
+    margin-block: 20px;
+    display: block;
+  }
+
+  .stories__multiple {
+    gap: 11px;
+  }
+
+  .stories__single {
+    display: none;
+  }
+
+  .stories__item h2,
+  .stories__single p,
+  .stories__content::before {
+    line-height: 17.1px;
+    font-size: 0.571rem;
+  }
+
+  .stories__item {
+    border-radius: 9.53px;
+  }
+
+  .stories__content::before {
+    padding: 5px 11px;
+  }
+
+  .stories__item > .stories__content {
+    padding: 22.65px 0px 17px 22.65px;
+  }
+
+  .stories .regular-button {
+    font-size: 1rem;
+    padding-inline: 37px;
+    padding-block: 5px;
   }
 }

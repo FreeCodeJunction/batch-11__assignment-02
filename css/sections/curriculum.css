@@ -1,6 +1,7 @@
 .curriculum {
-  padding-block: 60px 0;
+  padding-block: 60px;
   position: relative;
+  background: url(../../assets/bg.png) no-repeat center center / cover;
 }
 
 .curriculum__items {

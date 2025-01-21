@@ -18,10 +18,19 @@
   --clr-button-2: #f0aa00;
   --clr-border-3: #f2e8ff;
   --clr-button-3: #8700ff;
+  --clr-stories-single: #666666;
+  --clr-mild-green: #95b226;
+  --clr-mild-blue: #5d58f0;
+
   /* gradients  */
   --gradient-1: linear-gradient(180deg, #def5ff 0%, white 40%, white 100%);
   --gradient-2: linear-gradient(180deg, #fff4dc 0%, white 40%, white 100%);
   --gradient-3: linear-gradient(180deg, #f2e8ff 0%, white 40%, white 100%);
+  --gradient-4: linear-gradient(
+    0deg,
+    rgba(254, 163, 1, 0.3),
+    rgba(255, 255, 255, 0.3) 100%
+  );
 }
 
 * {
@@ -58,6 +67,7 @@ img {
   color: var(--clr-pure-white);
   background-color: var(--clr-pure-black);
   border: none;
+  cursor: pointer;
   border-radius: 12px;
 }
 
