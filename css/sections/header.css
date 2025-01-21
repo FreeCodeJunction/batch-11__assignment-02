@@ -64,6 +64,7 @@
 .navbar__items > button {
   background-color: var(--clr-orange);
   transition: all 0.2s ease-out;
+  border: none;
 }
 
 .navbar__items > ul > li > a:hover {
@@ -93,4 +94,32 @@
   font-size: 1.125rem;
   max-width: 580px;
   margin-block: 24px;
+}
+
+/* marquee section */
+
+.marquee {
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee > h4 {
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+  left: -400px;
+
+  animation: marquee-ani 7s infinite linear both;
+  font-size: 1.3rem;
+  color: green;
+}
+
+@keyframes marquee-ani {
+  to {
+    color: goldenrod;
+    left: 100%;
+  }
 }
