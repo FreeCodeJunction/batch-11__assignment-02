@@ -1,7 +1,8 @@
 @media screen and (width <= 1200px) {
   /* hero section */
-  .hero {
-    padding-inline: 3rem;
+  .hero,
+  .curriculum {
+    padding-inline: 2rem;
   }
 
   .hero__title {
@@ -10,5 +11,11 @@
 
   .hero__description {
     padding-right: 2rem;
+  }
+
+  /* curriculum section */
+
+  .curriculum__side-btns {
+    display: none;
   }
 }

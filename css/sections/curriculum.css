@@ -1,0 +1,90 @@
+.curriculum {
+  padding-block: 60px 0;
+  position: relative;
+}
+
+.curriculum__items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 28px;
+  margin-block: 80px;
+}
+
+.curriculum__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px;
+  border-radius: 18.86px;
+  border: 0.94px solid;
+  padding: 53px 40px;
+  box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+
+.curriculum__item > h2 {
+  font-size: 1.531rem;
+  line-height: 30px;
+  font-weight: 700;
+  color: var(--clr-mild-black);
+}
+
+.curriculum__item > p,
+.curriculum__item > button {
+  font: 500 0.938rem var(--font-secondary);
+  line-height: 28.3px;
+  color: var(--clr-mild-white);
+  text-align: center;
+}
+
+.curriculum__item > button {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  border: none;
+  background: none;
+}
+
+.curriculum__item-1 {
+  border-color: var(--clr-border-1);
+  background: var(--gradient-1);
+}
+
+.curriculum__item-1 > button {
+  color: var(--clr-button-1);
+}
+
+.curriculum__item-2 {
+  border-color: var(--clr-border-2);
+  background: var(--gradient-2);
+}
+
+.curriculum__item-2 > button {
+  color: var(--clr-button-2);
+}
+
+.curriculum__item-3 {
+  border-color: var(--clr-border-3);
+  background: var(--gradient-3);
+}
+
+.curriculum__item-3 > button {
+  color: var(--clr-button-3);
+}
+
+.curriculum__side-btns {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: var(--clr-pure-white);
+  gap: 10px;
+}
+
+.curriculum__side-btns > span {
+  background-color: var(--clr-orange);
+  width: 60px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  cursor: pointer;
+}

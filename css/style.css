@@ -3,7 +3,7 @@
 
 /* css file for different sections */
 @import url("sections/header.css");
-
+@import url("sections/curriculum.css");
 /* media query for different screen sizes */
 @import url("mediaquery/xxl.css");
 @import url("mediaquery/xl.css");

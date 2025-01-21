@@ -1,6 +1,11 @@
 @media screen and (width <= 768px) {
+  .wrapper {
+    padding-inline: 1rem;
+  }
+
   .navbar {
     border-bottom: 2px solid var(--clr-orange);
+    padding-inline: 0;
   }
 
   .navbar__items {
@@ -18,7 +23,7 @@
     gap: 20px;
     align-items: center;
     text-align: center;
-    padding-inline: 1rem;
+    padding-inline: 0;
   }
 
   .hero__title {
@@ -35,5 +40,6 @@
 
   .hero__content > .regular-button {
     padding-inline: 24px;
+    font-size: 1rem;
   }
 }

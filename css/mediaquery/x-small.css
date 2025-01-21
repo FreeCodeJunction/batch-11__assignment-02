@@ -1,4 +1,9 @@
 @media screen and (width <= 576px) {
+  .regular-heading {
+    font-size: 1.625rem;
+    line-height: initial;
+  }
+
   /* hero section */
 
   .hero {
@@ -11,5 +16,53 @@
 
   .hero__description {
     font-size: 0.875rem;
+  }
+
+  /* curriculum  */
+
+  .curriculum {
+    padding: 40px 0 0;
+    /* background: url("../../assets/bg.png") left top no-repeat;
+    background-size: contain; */
+  }
+
+  .curriculum .bg-img-container {
+    inset: initial;
+    left: 0;
+    top: 0;
+  }
+
+  .curriculum .bg-img-container > img {
+    height: auto;
+  }
+
+  .curriculum__items {
+    margin-block: 20px;
+    gap: 12.3px;
+  }
+
+  .curriculum__item {
+    padding: 36px 0;
+    gap: 22px;
+  }
+
+  .curriculum__item > img {
+    max-width: 92.6px;
+    aspect-ratio: 1;
+  }
+
+  .curriculum__item > h2 {
+    font-size: 1.038rem;
+    line-height: 20.8px;
+  }
+
+  .curriculum__item > p,
+  .curriculum__item > button {
+    font-size: 0.639rem;
+    line-height: 19.2px;
+  }
+
+  .curriculum__item > p {
+    max-width: 193.81px;
   }
 }

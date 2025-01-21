@@ -1,5 +1,8 @@
 @media screen and (width <= 992px) {
   /* header section  */
+  .regular-heading {
+    font-size: 2rem;
+  }
 
   .navbar__items .regular-button {
     padding-inline: 2.1rem;
@@ -18,7 +21,8 @@
 
   .hero {
     gap: 0;
-    align-items: end;
+    padding-inline: 2rem;
+    /* align-items: end; */
   }
 
   .hero__img-container {
@@ -33,5 +37,11 @@
 
   .hero__description {
     max-width: 440px;
+  }
+
+  /*curriculum section */
+
+  .curriculum__items {
+    margin-block: 50px;
   }
 }

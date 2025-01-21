@@ -1,56 +1,87 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
-
 :root {
-    --font-primary: "Quicksand", serif;
-    --font-secondary: font-family: "Raleway", serif;
-    /* colors  */
-    --clr-pure-black: #000000;
-    --clr-pure-white: #FFFFFF;
-    --clr-orange: rgba(254, 163, 1, 1);
-    --clr-skyblue: rgba(1, 172, 253, 1);
-    --clr-mild-skyblue: #05D4DF;
-    --clr-strong-skyblue: #5D58EF;
-
+  --font-primary: "Quicksand", serif;
+  --font-secondary: "Raleway", serif;
+  /* colors  */
+  --clr-mild-black: #202020;
+  --clr-pure-black: #000000;
+  --clr-pure-white: #ffffff;
+  --clr-orange: rgba(254, 163, 1, 1);
+  --clr-skyblue: rgba(1, 172, 253, 1);
+  --clr-mild-skyblue: #05d4df;
+  --clr-strong-skyblue: #5d58ef;
+  --clr-mild-white: #808080;
+  --clr-border-1: #def5ff;
+  --clr-button-1: #64c8ff;
+  --clr-border-2: #fff4dc;
+  --clr-button-2: #f0aa00;
+  --clr-border-3: #f2e8ff;
+  --clr-button-3: #8700ff;
+  /* gradients  */
+  --gradient-1: linear-gradient(180deg, #def5ff 0%, white 40%, white 100%);
+  --gradient-2: linear-gradient(180deg, #fff4dc 0%, white 40%, white 100%);
+  --gradient-3: linear-gradient(180deg, #f2e8ff 0%, white 40%, white 100%);
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    font-family: var(--font-primary);
+  font-family: var(--font-primary);
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
-
-
 
 .wrapper {
-    max-width: 1440px;
-    margin-inline: auto;
+  max-width: 1440px;
+  margin-inline: auto;
 }
 
-
 /* utility classes */
+.regular-heading {
+  font-size: 2.875rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 57.5px;
+}
+
 .regular-button {
-    padding: 10px 60.5px;
-    font: 600 1.25rem var(--font-primary);
-    color: var(--clr-pure-white);
-    background-color: var(--clr-pure-black);
-    border: none;
-    border-radius: 12px;
+  padding: 10px 60.5px;
+  font: 600 1.25rem var(--font-primary);
+  color: var(--clr-pure-white);
+  background-color: var(--clr-pure-black);
+  border: none;
+  border-radius: 12px;
+}
+
+.bg-img-container {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+.bg-img-container > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .text-orange {
-    color: var(--clr-orange);
+  color: var(--clr-orange);
 }
 
 .text-skyblue {
-    color: var(--clr-skyblue);
+  color: var(--clr-skyblue);
+}
+
+.max-inline {
+  max-width: 1160px;
+  margin-inline: auto;
 }
