@@ -21,6 +21,7 @@
   --clr-stories-single: #666666;
   --clr-mild-green: #95b226;
   --clr-mild-blue: #5d58f0;
+  --clr-footer-bg: #01acfd;
 
   /* gradients  */
   --gradient-1: linear-gradient(180deg, #def5ff 0%, white 40%, white 100%);
@@ -66,21 +67,15 @@ img {
   font: 600 1.25rem var(--font-primary);
   color: var(--clr-pure-white);
   background-color: var(--clr-pure-black);
-  border: none;
   cursor: pointer;
   border-radius: 12px;
+  border: 2px solid var(--clr-pure-black);
+  transition: all 0.2s ease-out;
 }
 
-.bg-img-container {
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-}
-
-.bg-img-container > img {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
+.regular-button:hover {
+  background: var(--clr-pure-white);
+  color: var(--clr-pure-black);
 }
 
 .text-orange {

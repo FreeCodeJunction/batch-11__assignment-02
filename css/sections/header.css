@@ -42,6 +42,7 @@
   line-height: 30px;
   text-decoration: none;
   cursor: pointer;
+  transition: all 0.2s ease-out;
 }
 
 .navbar__items > ul > li:first-of-type > a {
@@ -62,6 +63,15 @@
 
 .navbar__items > button {
   background-color: var(--clr-orange);
+  transition: all 0.2s ease-out;
+}
+
+.navbar__items > ul > li > a:hover {
+  color: red;
+}
+
+.navbar__items > button:hover {
+  background-color: rgb(168, 136, 243);
 }
 
 /* hero section */
@@ -79,7 +89,7 @@
 }
 
 .hero__description {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.125rem;
   max-width: 580px;
   margin-block: 24px;

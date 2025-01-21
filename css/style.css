@@ -5,10 +5,6 @@
 @import url("sections/header.css");
 @import url("sections/curriculum.css");
 @import url("sections/stories.css");
+@import url("sections/footer.css");
 /* media query for different screen sizes */
-@import url("mediaquery/xxl.css");
-@import url("mediaquery/xl.css");
-@import url("mediaquery/large.css");
-@import url("mediaquery/medium.css");
-@import url("mediaquery/small.css");
 @import url("mediaquery/x-small.css");

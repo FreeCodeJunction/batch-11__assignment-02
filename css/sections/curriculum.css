@@ -42,6 +42,8 @@
   font-weight: 700;
   border: none;
   background: none;
+  transition: all 0.2s ease-out;
+  cursor: pointer;
 }
 
 .curriculum__item-1 {
@@ -71,6 +73,10 @@
   color: var(--clr-button-3);
 }
 
+.curriculum__item > button:hover {
+  color: rgb(88, 202, 22);
+}
+
 .curriculum__side-btns {
   display: flex;
   justify-content: center;
@@ -88,4 +94,10 @@
   align-items: center;
   border-radius: 30px;
   cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.curriculum__side-btns > span:hover {
+  background-color: blanchedalmond;
+  color: black;
 }
