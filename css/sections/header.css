@@ -110,9 +110,8 @@
   position: absolute;
   top: 50%;
   translate: 0 -50%;
-  left: -400px;
-
-  animation: marquee-ani 7s infinite linear both;
+  right: -400px;
+  animation: marquee-ani 9s 1s infinite linear both;
   font-size: 1.3rem;
   color: green;
 }
@@ -120,6 +119,6 @@
 @keyframes marquee-ani {
   to {
     color: goldenrod;
-    left: 100%;
+    right: 100%;
   }
 }
